@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo">Portfolio.</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Work</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section container" id="home">
+        <div class="hero">
+            <div class="hero-content fade-in">
+                <h2 style="color: var(--secondary-color); margin-bottom: 10px; font-weight: 600;">Hello, I'm</h2>
+                <h1>Asmita</h1>
+                <p>A passionate UI/UX Designer crafting intuitive and visually stunning digital experiences. I bridge
+                    the gap between aesthetics and functionality.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline" style="margin-left: 10px;">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="blob"></div>
+                <img src="assets/profile.jpg" alt="Asmita - UI/UX Designer">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section container" id="about">
+        <div class="section-title fade-in">
+            <h2>About Me</h2>
+            <span></span>
+        </div>
+        <div class="about-content fade-in"
+            style="justify-content: center; text-align: center; max-width: 800px; margin: 0 auto;">
+            <div class="about-text">
+                <p>I am a creative UI/UX Designer with a knack for turning complex problems into simple, beautiful
+                    solutions. With a strong foundation in user research, wireframing, and prototyping, I create digital
+                    products that are not only visually appealing but also user-centric.</p>
+                <p>My workflow is driven by empathy and data. I believe that good design is invisible—it just works.
+                    When I'm not designing, I'm exploring new web technologies or keeping up with the latest design
+                    trends.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section container" id="skills" style="min-height: auto; padding-bottom: 50px;">
+        <div class="section-title fade-in">
+            <h2>My Skills</h2>
+            <span></span>
+        </div>
+        <div class="skills-grid fade-in">
+            <div class="skill-tag">Figma</div>
+            <div class="skill-tag">Adobe XD</div>
+            <div class="skill-tag">User Research</div>
+            <div class="skill-tag">Wireframing</div>
+            <div class="skill-tag">Prototyping</div>
+            <div class="skill-tag">HTML5 & CSS3</div>
+            <div class="skill-tag">JavaScript</div>
+            <div class="skill-tag">Responsive Design</div>
+            <div class="skill-tag">Accessibility</div>
+            <div class="skill-tag">Motion Design</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section container" id="projects">
+        <div class="section-title fade-in">
+            <h2>Featured Projects</h2>
+            <span></span>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card fade-in">
+                <div class="project-img" style="background: linear-gradient(45deg, #4c1d95, #c026d3);"></div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">Mobile App</span>
+                        <span class="project-tag">Figma</span>
+                    </div>
+                    <h3>FinTech Banking App</h3>
+                    <p>A complete redesign of a banking application focusing on simplifying money transfers and
+                        transaction history visualization.</p>
+                    <a href="#" style="color: var(--primary-color); font-weight: 600;">View Case Study <i
+                            data-lucide="arrow-right" style="width: 16px; vertical-align: middle;"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card fade-in">
+                <div class="project-img" style="background: linear-gradient(45deg, #1e3a8a, #3b82f6);"></div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">Web Platform</span>
+                        <span class="project-tag">SaaS</span>
+                    </div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Designed a comprehensive analytics dashboard for a B2B SaaS platform, improving user retention by
+                        25%.</p>
+                    <a href="#" style="color: var(--primary-color); font-weight: 600;">View Case Study <i
+                            data-lucide="arrow-right" style="width: 16px; vertical-align: middle;"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card fade-in">
+                <div class="project-img" style="background: linear-gradient(45deg, #065f46, #10b981);"></div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">E-Commerce</span>
+                        <span class="project-tag">UX Research</span>
+                    </div>
+                    <h3>Fashion E-Commerce</h3>
+                    <p>End-to-end design for a fashion retailer, optimizing the checkout flow and mobile shopping
+                        experience.</p>
+                    <a href="#" style="color: var(--primary-color); font-weight: 600;">View Case Study <i
+                            data-lucide="arrow-right" style="width: 16px; vertical-align: middle;"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section container" id="experience">
+        <div class="section-title fade-in">
+            <h2>Experience</h2>
+            <span></span>
+        </div>
+        <div class="timeline fade-in">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Senior UI/UX Designer</h3>
+                    <span>Creative Agency | 2023 - Present</span>
+                    <p>Leading design teams, conducting user research, and overseeing the delivery of high-impact
+                        digital products for global clients.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Product Designer</h3>
+                    <span>Tech Startup | 2021 - 2023</span>
+                    <p>Collaborated with engineers to launch the MVP of a health-tech platform. Improved user onboarding
+                        flow and reduced drop-offs.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Junior UI Designer</h3>
+                    <span>Design Studio | 2019 - 2021</span>
+                    <p>Assisted in creating design systems, wireframes, and high-fidelity mockups for various web and
+                        mobile applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section container" id="contact">
+        <div class="section-title fade-in">
+            <h2>Get In Touch</h2>
+            <span></span>
+        </div>
+        <div class="contact-container fade-in">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" rows="5" placeholder="How can I help you?"></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Send
+                    Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Asmita. All rights reserved.</p>
+            <div style="margin-top: 10px; font-size: 1.5rem;">
+                <a href="#" style="margin: 0 10px;"><i data-lucide="github"></i></a>
+                <a href="#" style="margin: 0 10px;"><i data-lucide="linkedin"></i></a>
+                <a href="#" style="margin: 0 10px;"><i data-lucide="dribbble"></i></a>
+                <a href="#" style="margin: 0 10px;"><i data-lucide="twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
